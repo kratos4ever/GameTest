@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     private void connectWebSocket() {
         URI uri;
         try {
-            uri = new URI("ws://35.184.71.197:8990/game/");
+            uri = new URI("ws://192.168.1.4:8990/game/");
         } catch (URISyntaxException e) {
             e.printStackTrace();
             return;
